@@ -1,0 +1,62 @@
+body{
+    padding: 0 15%;
+}
+nav{
+    background-color: #FFD400;
+}
+.mabayn{
+    width: 20px;
+    transform: rotate(90deg);
+    margin: auto 1px auto 1px;
+}
+.navbar-item{
+    transition: 200ms;
+    cursor: pointer;
+    padding: 10px 5px;
+}
+.navbar-item:hover{
+    color: red;
+}
+#sat{
+    height: 20px;
+    margin-bottom: 5px;
+}
+p{
+    margin: auto 1px auto 10px;
+}
+li{
+    margin: auto 1px auto 10px;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-family: Comic Sans Ms;
+    font-size: 2.7rem;
+}
+.paxsh p{
+    color: red;
+    margin: auto 0 auto 25px;
+}
+.chap{
+    padding: 0;
+    margin: auto 0;
+}
+.rast{
+    margin-left: 70px;
+}
+@media only screen and (max-width: 400px) {
+    body {
+      padding: 0;
+    }
+    hr{
+        display: none;
+    }
+    .rast, .paxsh{
+        display: none;
+    }
+    p{
+        margin: 0;
+    }
+    .navbar-item:hover{
+        color: unset;
+    }
+  }
